@@ -1,7 +1,7 @@
 * .staff-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
+    gap: 24px;}
 .staff-card {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
