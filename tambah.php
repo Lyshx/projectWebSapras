@@ -10,6 +10,7 @@ if(isset($_POST['submit'])) {
     $query = "INSERT INTO barang (id_barang, nama_barang, jumlah, kondisi, stok_barang, lokasi) VALUES ('$id_barang', '$nama_barang', '$jumlah', '$kondisi', '$stok_barang', '$lokasi')";
     mysqli_query($koneksi, $query);
     header("Location: tampil.php");
+    
 }
 ?>
 
