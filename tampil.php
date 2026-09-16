@@ -21,7 +21,7 @@ $data = mysqli_fetch_all($hasil, MYSQLI_ASSOC);
             <th>Id</th>
             <th>Id_barang</th>
             <th>Nama_Barang</th>
-            <th>Jumalah</th>
+            <th>Jumlah</th>
             <th>Kondisi</th>
             <th>Stok_Barang</th>
             <th>Lokasi</th>
